@@ -1,0 +1,131 @@
+body{
+	background: white;
+	color: white;
+	padding: 0;
+	margin: 0;
+}
+header{
+	background: black;
+	background-image: url("../images/New_Foil2.PNG");
+	background-size: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	color: white;
+	font-family: arial;
+	padding: 15px 15px 200px 15px;
+	text-aligned: centered;
+}
+
+ol li {
+  background: rgb(255, 111, 97);
+  color: black;
+  padding: 5px;
+  margin-left: 35px;
+}
+
+header a, h1{
+	color: black;
+	text-align: center;
+	text-decoration: none;
+	text-font: arial;
+	margin-top: 40px;
+}
+h2{
+	color: black;
+	text-align: left;
+	text-decoration: none;
+	text-font: arial;
+	margin-top: 40px;
+}
+p.hiding{
+	color: black;
+	background: rgb(255, 111, 97);
+}
+
+.vids{
+	display: none;
+}
+header .logo a{
+	background-image: url("../images/Vortex_Shadow.jpg");
+	
+	background-size: 300px;
+	background-repeat: no-repeat;
+	display: inline-block;
+	height: 500px;
+	text-indent: -9999999px;
+	position: relative;
+	top: -40px;
+	width: 300px;
+	
+}
+
+.features{
+	background: white;
+	color: gray;
+	padding: 20px;
+	display: flex;
+	flex-direction: row;	
+}
+
+.features figure{
+	margin: auto;
+	text-transform: uppercase;
+	text-align: center;
+	width: 100px;
+}
+
+.features figure img{
+	border: 1px solid white;
+	border-radius: 50%;
+	box-shadow: gray 0px 0px 10px;
+	width: 200px;
+	text-align: center;
+}
+
+.flex-container{
+	background: white;
+	padding: 20px;
+	display: flex;
+	flex-direction: row wrap;
+	justify-content: space-between;
+}
+
+.flex-container2{
+	background: black;
+	color: white;
+	padding: 20px;
+	display: flex;
+	flex-direction: row wrap;
+	justify-content: space-between;
+}
+
+nav ul li{
+	margin: 0;
+	padding: 0 0 0 0;
+	background: none;
+	color: black;
+	list-style-type: none;
+	display: inline-block;
+	padding: 5px 107px;
+	text-align: center;
+	display: flex;
+	flex-direction: row;	
+}
+@media screen and (max-width: 1000px) {
+	nav ul li{
+		background: red;
+	}
+}
+body.Pubs{
+	background: rgb(255, 111, 97);
+}
+/* nav ul li a{
+	margin: 0;
+	padding: 0 0 0 0;
+	color: black;
+	background: none;
+} */
+
+footer{
+	clear: both;
+}
