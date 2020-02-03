@@ -1,12 +1,12 @@
 body{
-	background: #D4E4F7;
+	background: #F3EFE0;
 	color: black;
 	padding: 0;
 	margin: 0;
 }
 
 ol li {
-  background: #D4E4F7;
+  background: #F3EFE0;
   color: #B84014;
   padding: 30px;
   margin-left: auto;
@@ -72,7 +72,8 @@ video{
 }
 
 img{
-	width: 600px;
+    max-width:100%;
+    height:auto;
 	
 }
 div a{

@@ -1,19 +1,18 @@
 body{
-	background: white;
-	color: white;
+	background: #F3EFE0;
+	color: blue;
 	padding: 0;
 	margin: 0;
 }
 header{
-	background: black;
-	background-image: url("../images/New_Foil2.PNG");
-	background-size: 100%;
+	background:   #F3EFE0;
 	background-position: center;
 	background-repeat: no-repeat;
-	color: white;
+	color: black;
 	font-family: arial;
-	padding: 15px 15px 200px 15px;
-	text-aligned: centered;
+	font-size: x-large;
+	padding: 0px 15px 0px 15px;
+	text-align: left;
 }
 
 ol li {
@@ -25,16 +24,17 @@ ol li {
 
 header a, h1{
 	color: black;
-	text-align: center;
-	text-decoration: none;
-	text-font: arial;
-	margin-top: 40px;
-}
-h2{
-	color: black;
+	background: #F3EFE0;
 	text-align: left;
 	text-decoration: none;
-	text-font: arial;
+	font-family: arial;
+	margin-top: 10px;
+}
+h2{
+	color: #F3EFE0;
+	text-align: left;
+	text-decoration: none;
+	font-family: arial;
 	margin-top: 40px;
 }
 p.hiding{
@@ -58,7 +58,56 @@ header .logo a{
 	width: 300px;
 	
 }
-
+div{
+	background: #F3EFE0;
+	color: blue;
+	padding: 15px;
+	display: flex;
+	flex-direction: row wrap;
+	justify-content: space-between;
+}
+.features{
+	border: 1px solid #F3EFE0;
+	border-radius: 50%;
+	box-shadow: gray 0px 0px 10px;
+	width: 200px;
+	text-align: center;
+}
+header.intros{
+	display: inline-block;
+	display: flex;
+	flex-direction: row;		
+}
+dev.intros{
+	margin: 0;
+	background: none;
+	color: black;
+	list-style-type: none;
+	font-size: larger;
+	display: inline-block;
+	padding: 50px 100px;
+	width: 75%;
+	text-align: left;
+	display: flex;
+	flex-direction: row;	
+}
+p{
+	padding: 50px 100px 100px 100px;
+}
+span{
+	color: black;
+	text-align: left;
+	text-decoration: none;
+	font-family: arial;
+	margin-top: 0px;	
+	display: flex;
+	flex-direction: column;	
+}
+/* h1.name{
+	display: flex;
+	flex-direction: column;	
+} */
+/*
 .features{
 	background: white;
 	color: gray;
@@ -82,13 +131,7 @@ header .logo a{
 	text-align: center;
 }
 
-.flex-container{
-	background: white;
-	padding: 20px;
-	display: flex;
-	flex-direction: row wrap;
-	justify-content: space-between;
-}
+
 
 .flex-container2{
 	background: black;
@@ -118,7 +161,7 @@ nav ul li{
 }
 body.Pubs{
 	background: rgb(255, 111, 97);
-}
+} */
 /* nav ul li a{
 	margin: 0;
 	padding: 0 0 0 0;
@@ -128,4 +171,16 @@ body.Pubs{
 
 footer{
 	clear: both;
+	position: absolute;
+	bottom: 0;
+	padding: 10px 100px 10px 10px;
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	background-color: black;
+	color: white;
+}
+.foot{
+	color: white;
+	background-color: black;
 }
