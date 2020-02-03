@@ -95,7 +95,18 @@ p{
 	padding: 10px 10px;
 	
 }
-
+header{
+	color: black;
+	background: #F3EFE0;
+	text-align: left;
+	text-decoration: none;
+	display: inline-block;
+	display: flex;
+	flex-direction: row;	
+	justify-content: space-between;
+	font-family: arial;
+	margin-top: 10px;
+}
 footer{
 	clear: both;
 } */

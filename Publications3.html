@@ -2,13 +2,13 @@
 <html>
 	<head>
 		<title>Page #2</title>
-		<link href="styles/Publications.css" rel="stylesheet" />
-		<!-- <link href="styles/main.css" rel="stylesheet" /> -->
+	<!-- 	<link href="styles/Publications.css" rel="stylesheet" /> -->
+		<link href="styles/main.css" rel="stylesheet" />
 	</head>
 	
 	<body class="Pubs">
 		<header class="intros">
-			<h1 class="name"> Beau <span class="lastName">Pollard</span></h1>
+			<h1 class="name"> Beau <br /> Pollard</h1>
 			<div class="flex-container">
 				<div><a href="index.html">Home</a></div>
 				<div><a href="Publications3.html">Publications</a></div>
@@ -18,7 +18,8 @@
 		</header>
 		<h2>Journal Papers</h2>
 		<ol type="I">
-			<li><a J_paper="NonLine" id="J3" href="#">Swimming on limit cycles with nonholonomic constraints</a></li>
+            <!-- <li><a J_paper="NonLine" id="J3" href="#">Swimming on limit cycles with nonholonomic constraints</a></li> -->
+            <li class="ListTitles"> Swimming on limit cycles with nonholonomic constraints </li>
 			<div>
 <!-- 			<div>
 			
@@ -45,19 +46,23 @@
 					low-dimensional mathematical models for the motion of other fish-like swimming robots.<br />
 					Click the link to download this paper:
 					<a href="Pollard2019_Nonlinear_Dynamics.pdf">Swimming on limit cycles with nonholonomic constraints</a>
-				</p>
-				<figure>
-					<img id="pic1" src="images/limits.JPG" alt="Nasa Logo"
+                </p>
+                <video id="Eastman" controls width="900">
+                    <source src="videos/Eastman_Poster_Beau_Pollard.mp4" type=video/mp4>
+                </video>
+<!-- 				<figure>
+					<img class="Research1" id="pic1" src="images/limits.JPG" alt="Nasa Logo"
 					<figcaption> NASA </figcaption>
-				</figure>	
+				</figure>	 -->
 				</div>
 			
 			</div>
-			<li><a J_paper="Tmech2" id="J2" href="#">Passive appendages improve the maneuverability of fish-like robots</a></li>
+            <!-- <li><a J_paper="Tmech2" id="J2" href="#">Passive appendages improve the maneuverability of fish-like robots</a></li> -->
+            <li class="ListTitles"> Passive appendages improve the maneuverability of fish-like robots </li>
 			<div class="intros">
 			<figure>
-				<img id="pic2" src="images/robots5.JPG" alt="Nasa Logo"
-				<figcaption> NASA </figcaption>
+				<img class="Research" id="pic2" src="images/robots5.JPG" alt="Nasa Logo"
+				<figcaption> </figcaption>
 			</figure>	
 			<p  id="Tmech2">
 				It is known that the passive mechanics of fish appendages play a role in the high efficiency of their swimming. 
@@ -86,11 +91,14 @@
 				can turn given the same input. 
 			</p>
 			<figure>
-				<img id="pic3" src="images/DC_IN.png" alt="Nasa Logo"
-				<figcaption> NASA </figcaption>
+				<img class="Research" id="pic3" src="images/DC_IN.png" alt="Nasa Logo"
+				<figcaption> </figcaption>
 			</figure>	
-			</div>
-			<li><a J_paper="Tmech1" id="J1" href="#">An aquatic robot propelled by an internal rotor</a></li>
+            </div>
+            <!-- <div class="intros" -->
+            <!-- <li><a J_paper="Tmech1" id="J1" href="#">An aquatic robot propelled by an internal rotor</a></li> -->
+            <li class="ListTitles"> An aquatic robot propelled by an internal rotor </li>
+            <div class="intros"
 			<p  id="Tmech1">
 				Unmanned aquatic vehicles and robots are of
 				tremendous importance in a variety of applications. In this
@@ -103,30 +111,40 @@
 				locomotion and maneuverability are presented.<br />
 				Click the link to download this paper:
 				<a href="Pollard2016_Tmech.pdf">An aquatic robot propelled by an internal rotor</a>
-			</p>			
+            </p>
+           </div>	
 		</ol>
 		<h2>Conference Proceedings</h2>
 		<ol type="I">
-			<li><a J_paper="AIAA2019" id="C4" href="#">A Combined Blade Element and Vortex Panel Method for Stacked Rotor Analysis</a></li>
+            <!-- <li><a J_paper="AIAA2019" id="C4" href="#">A Combined Blade Element and Vortex Panel Method for Stacked Rotor Analysis</a></li> -->
+            <li class="ListTitles">A Combined Blade Element and Vortex Panel Method for Stacked Rotor Analysis</li>
 			<p class="vids" id="AIAA2019">
-
+                Pollard, B., Patterson, M.D. and Whiteside, S., 2019. A Combined Blade Element and Vortex Panel Method for Stacked Rotor Analysis. In AIAA Aviation 2019 Forum (p. 3004).
 			</p>			
-			<li><a J_paper="DSCC2018" id="C3" href="#">Limit Cycle Behavior and Model Reduction of an Oscillating Fish-Like Robot</a></li>
+            <!-- <li><a J_paper="DSCC2018" id="C3" href="#">Limit Cycle Behavior and Model Reduction of an Oscillating Fish-Like Robot</a></li> -->
+            <li class="ListTitles">Limit Cycle Behavior and Model Reduction of an Oscillating Fish-Like Robot</li>
 			<p class="vids" id="DSCC2018">
 				This is a brief thing about my paper
 				<a href="#">Swimming on limit cycles with nonholonomic constraints</a>
 			</p>			
-			<li><a J_paper="DSCC2017" id="C2" href="#">Passive appendages improve the maneuverability of fish-like robots</a></li>
+            <!-- <li><a J_paper="DSCC2017" id="C2" href="#">Passive appendages improve the maneuverability of fish-like robots</a></li> -->
+            <li class="ListTitles">Passive appendages improve the maneuverability of fish-like robots</li>
 			<p class="vids" id="DSCC2017">
 				This is a brief thing about my paper
 				<a href="#">Swimming on limit cycles with nonholonomic constraints</a>
 			</p>			
-			<li><a J_paper="DSCC2016" id="C1" href="#">An aquatic robot propelled by an internal rotor</a></li>
+            <!-- <li><a J_paper="DSCC2016" id="C1" href="#">An aquatic robot propelled by an internal rotor</a></li> -->
+            <li class="ListTitles">An aquatic robot propelled by an internal rotor</li>
 			<p class="vids" id="DSCC2016">
 				This is a brief thing about my paper
 				<a href="#">Swimming on limit cycles with nonholonomic constraints</a>
 			</p>			
-		</ol>
+        </ol>
+        
+        <footer>
+            <div class="foot"> Contact: beauppollard@gmail.com </div>
+            <!-- <a class="foot" href="About.html">Contact</a> -->	<!-- <script src="scripts/main.js"></script> -->		
+        </footer>       
 	</body>
 
 	<!-- <script src="scripts/Publications.js"></script> -->

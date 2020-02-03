@@ -16,12 +16,17 @@ header{
 }
 
 ol li {
-  background: rgb(255, 111, 97);
+  background: none;
   color: black;
   padding: 5px;
   margin-left: 35px;
 }
+.ListTitles{
+	color: black;
+	font-family: arial;
+	font-size: larger;
 
+}
 header a, h1{
 	color: black;
 	background: #F3EFE0;
@@ -59,8 +64,8 @@ header .logo a{
 	
 }
 div{
-	background: #F3EFE0;
-	color: blue;
+	background: none;
+	color: black;
 	padding: 15px;
 	display: flex;
 	flex-direction: row wrap;
@@ -94,6 +99,15 @@ dev.intros{
 p{
 	padding: 50px 100px 100px 100px;
 }
+
+h2{
+	color: #341C09;
+	text-align: center;
+	text-decoration: none;
+	font-family: arial;
+	margin-top: 40px;
+}
+
 span{
 	color: black;
 	text-align: left;
@@ -102,6 +116,16 @@ span{
 	margin-top: 0px;	
 	display: flex;
 	flex-direction: column;	
+}
+img.Research1{
+    max-width:400%;
+    height:auto;
+	
+}
+img.Research{
+    max-width:50%;
+    height:auto;
+	
 }
 /* h1.name{
 	display: flex;
@@ -171,7 +195,7 @@ body.Pubs{
 
 footer{
 	clear: both;
-	position: absolute;
+	position: relative;
 	bottom: 0;
 	padding: 10px 100px 10px 10px;
 	display: flex;
